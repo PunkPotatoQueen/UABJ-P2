@@ -32,7 +32,7 @@ public class Joguinho {
             finais = Escolha2(p);
         } else{
             System.out.println("O despertador toca e você percebe que tudo aquilo não passava de um sonho. Hora de levantar!\n");
-            System.out.println("Parabéns! Você encontrou um dos finais da história!");
+            System.out.println("Parabéns! Você encontrou o final easter egg da história!");
             System.out.println("\n Agradecemos por jogar!");
         }
         if(finais == 0){
@@ -53,7 +53,7 @@ public class Joguinho {
             System.out.println("\n Agradecemos por jogar!");
         } else{
             System.out.println("O despertador toca e você percebe que tudo aquilo não passava de um sonho. Hora de levantar!\n");
-            System.out.println("Parabéns! Você encontrou um dos finais da história!");
+            System.out.println("Parabéns! Você encontrou o final easter egg da história!");
             System.out.println("\n Agradecemos por jogar!");
         }
         prox.close();
