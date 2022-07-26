@@ -10,7 +10,7 @@ public class JogoPersonagens {
         boolean b = true;
         if (contador == 0){
             System.out.println("\n FINAL: Esgotado");
-            System.out.println("Aparentemente você não aguenta mais todo seu esforço e volta para casa. Ao chegar, se joga na cama e espera o dia acabar.");
+            System.out.println("Aparentemente você só... não aguenta mais. Em casa, você se joga na cama e espera o dia acabar.");
             System.out.println("Provavelmete você acha que nada faz sentido ou está se preocupando com o que poderia ter acontecido ou com o que vai acontecer.");
             System.out.println("Às vezes as coisas saem do nosso controle e tudo bem ficar chateado, mas por favor... não desista!");
             System.out.println("Vários problemas podem ser gerados a partir da falta de cuidado consigo mesmo e preocupação extrema.");
@@ -30,7 +30,7 @@ public class JogoPersonagens {
         boolean b = true;
         if (contador == 0){
             System.out.println("\n FINAL: Esgotado");
-            System.out.println("Aparentemente você não aguenta mais todo seu esforço e volta para casa. Ao chegar, se joga na cama e espera o dia acabar.");
+            System.out.println("Aparentemente você só... não aguenta mais. Em casa, você se joga na cama e espera o dia acabar.");
             System.out.println("Provavelmete você acha que nada faz sentido ou está se preocupando com o que poderia ter acontecido ou com o que vai acontecer.");
             System.out.println("Às vezes as coisas saem do nosso controle e tudo bem ficar chateado, mas por favor... não desista!");
             System.out.println("Vários problemas podem ser gerados a partir da falta de cuidado consigo mesmo e preocupação extrema.");
@@ -83,7 +83,7 @@ public class JogoPersonagens {
         boolean i = true;
         fimHistoria(contador);
 
-        while (i) {
+        while (i == true) {
  // parte 1
             System.out.println("\n \n \n CAPITULO UM: Bom Dia");
             System.out.println("Você acorda com o sol passando pelas frestas da janela. É tão cedo...");
