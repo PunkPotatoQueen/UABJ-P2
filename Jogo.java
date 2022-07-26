@@ -133,13 +133,13 @@ public class Jogo extends Personagem{
         System.out.println("- DIGITE 2 PARA IR ASSIM MESMO \n");
         Scanner o = new Scanner(System.in);
         int opcao1D1 = o.nextInt();
-        o.close();
         if(opcao1D1 == 2){
             decorrer = MenosEnergia(decorrer);
         }
         if((opcao1D1 != 1) & (opcao1D1 != 2)){
             decorrer = -1;
         }
+        o.close();
         VerificarProgresso2(decorrer);
     }
 
@@ -159,7 +159,7 @@ public class Jogo extends Personagem{
 
     public static void Historia(int energia) {
         int decorrer = energia;
-        System.out.println("CAPITULO UM: Bom Dia");
+        System.out.println("\n \n \n CAPITULO UM: Bom Dia");
         System.out.println("Você acorda com o sol passando pelas frestas da janela. É tão cedo...");
         System.out.println("Você sente que deve começar o dia... mas bate uma preguicinha... Dormir mais um pouco?");
         System.out.println("- DIGITE 1 PARA SIM");
@@ -184,7 +184,7 @@ public class Jogo extends Personagem{
         nivel2.nivel = 2;
         nivel2.energia = 3;
 
-        //Inicio do jogo
+        //Menu de escolha do jogo
 
         System.out.println("MENU DE ESCOLHA. SELECIONE A DIFICULDADE DO JOGO:");
         System.out.println("  - DIGITE 1 PARA FÁCIL");

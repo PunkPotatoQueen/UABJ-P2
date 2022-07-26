@@ -1,4 +1,6 @@
 public class Personagem {
-    int nivel;
-    int energia;
+
+        int nivel;
+        int energia;   
+         
 }
