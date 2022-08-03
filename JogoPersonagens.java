@@ -81,7 +81,7 @@ public class JogoPersonagens {
             contador = 100;
         }
         boolean i = true;
-        fimHistoria(contador);
+        i = fimHistoria(contador);
 
         while (i == true) {
  // parte 1
