@@ -1,8 +1,7 @@
 public class Capitulo {
         String nome;
         String texto;
-        String escolha1;
-        String escolha2;
+        String [] escolhas = {"",""};
      //   int decorrer;
      //   Personagem persona;
 
@@ -10,8 +9,8 @@ public class Capitulo {
             
             System.out.println(this.nome);
             System.out.println(this.texto);
-            System.out.println(this.escolha1);
-            System.out.println(this.escolha2);
+            System.out.println(this.escolhas[0]);
+            System.out.println(this.escolhas[1]);
             System.out.println("");
         }
 }
